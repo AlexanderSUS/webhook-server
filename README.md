@@ -6,7 +6,7 @@ Allow to deploy your github repo automatically on github events with help of git
 
 1. Clone this repo 
 
-2. Go to repos folder
+2. Go to repo's folder
 
 3. Install dependencies
 ```bash
@@ -21,8 +21,8 @@ chmod +x ./deploy_stage
 5. Go to your github repo you want automatically deploy and
     - find Settings => Webhooks => add webhook 
     - set your payload url, it should be https
-    - choose conte type application/json
-    - set secret that you later put in .evn file
+    - choose content type application/json
+    - set the secret 
     - choose "Let me select individual events."
     - mark checkbox at "Pull requests"
 
